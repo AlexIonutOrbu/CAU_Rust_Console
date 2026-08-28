@@ -1,0 +1,6 @@
+[package]
+name = "cards_against_humanity_console"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
