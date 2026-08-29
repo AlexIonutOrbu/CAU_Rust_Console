@@ -3,9 +3,7 @@
 use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
-
 #[derive(Serialize, Deserialize, Debug, Clone)]
-#[serde(tag = "type")]
 
 pub enum State {
     Lobby,           // stato in cui il server è in attesa che i giocatori si connettano
