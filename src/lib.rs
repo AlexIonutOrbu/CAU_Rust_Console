@@ -35,5 +35,8 @@ pub enum Message {
         current_option_winner: Option<String>,
         current_player_rankings: HashMap<String, u32>,
     },
+    Info {
+        info: String,
+    },
     Finish,
 }
