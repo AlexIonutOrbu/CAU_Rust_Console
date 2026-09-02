@@ -3,7 +3,6 @@
 use std::collections::HashMap;
 use std::error::Error;
 use std::io::Write;
-use std::os::linux::raw::stat;
 use std::{
     self,
     net::{TcpListener, TcpStream},
